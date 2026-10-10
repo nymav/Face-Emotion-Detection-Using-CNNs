@@ -2,17 +2,17 @@
 
 **Author:** Nikhil Yarra
 
-## 🚀 Overview
+## Overview
 
 This project implements a CNN-based image classification system to detect facial emotions (Happy or Sad) using deep learning. Multiple transfer learning models (VGG16, ResNet50, DenseNet121, MobileNetV2) were trained, evaluated, and compared on real-world facial image datasets.
 
-## 📁 Dataset
+## Dataset
 
 * **Source:** Google Images (manually curated)
-* **Classes:** HAPPY 😄 and SAD 😔
+* **Classes:** HAPPY  and SAD
 ---
 
-## 📊 Experimental Setup
+## Experimental Setup
 
 * **Image Size:** 256x256
 * **Batch Size:** 32
@@ -27,7 +27,7 @@ This project implements a CNN-based image classification system to detect facial
 
 ---
 
-## 🧠 Model Architecture (Example: VGG16-based)
+## Model Architecture (Example: VGG16-based)
 
 * Feature extractor (frozen)
 * Global Average Pooling
@@ -37,7 +37,7 @@ This project implements a CNN-based image classification system to detect facial
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 | Model       | Accuracy   | Loss       |
 | ----------- | ---------- | ---------- |
@@ -47,12 +47,11 @@ This project implements a CNN-based image classification system to detect facial
 | MobileNetV2 | 0.7474     | 0.5129     |
 
 * **Best Model:** VGG16
-* **Confusion Matrix:**
-  ![VGG Confusion Matrix](insert-vgg-cm-image-link-if-hosted)
+* **Notebook:** [Training and evaluation](DRAX_CODE.ipynb)
 
 ---
 
-## 📌 Evaluation Metrics
+## Evaluation Metrics
 
 * **Precision:** 0.5615
 * **Recall:** 0.5638
@@ -62,7 +61,7 @@ This project implements a CNN-based image classification system to detect facial
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 * **Training vs Validation Accuracy (All Models)**
 * **Confusion Matrices**
@@ -72,7 +71,7 @@ This project implements a CNN-based image classification system to detect facial
 
 ---
 
-## 🤖 Unseen Data Predictions
+## Unseen Data Predictions
 
 * Real-time prediction on unseen individual and batch images
 * Folder-wise evaluation
@@ -80,7 +79,7 @@ This project implements a CNN-based image classification system to detect facial
 
 ---
 
-## 📚 References
+## References
 
 1. [VGG](https://arxiv.org/abs/1409.1556)
 2. [ResNet](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html)
@@ -89,7 +88,6 @@ This project implements a CNN-based image classification system to detect facial
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
-This project confirms that transfer learning with CNNs like VGG16 can deliver high accuracy in emotion detection. It provides a strong foundation for scalable emotion-aware applications in healthcare, human-computer interaction, and sentiment analysis.
-
+This repository records happy/sad image-classification experiments. Reported metrics refer to the original experiment runs; consult the notebook for the evaluation setup. These results do not establish performance across broader populations or deployment settings.
